@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "6afc4c9f-5935-4589-a441-4fb2e76b2b0d",
+		"name": "search collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/api/search/stickers/cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/search/stickers/cars",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"search",
+						"stickers",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/search/gifs/cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/search/gifs/cars",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"search",
+						"gifs",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
