@@ -24,7 +24,7 @@ function Gif(){
     return new Promise(function(resolve,reject){
         var rng = {
             'method':'GET',
-            'url':'https://api.giphy.com/v1/gifs/random?api_key=MMnnpq3mKhcoDugZuicj10rNyNCsslHF&tag=&rating=G'
+            'url':'https://api.giphy.com/v1/gifs/random?api_key='+mykey+'&tag=&rating=G'
         };
         request(rng,function(error,response){
             if(error){
